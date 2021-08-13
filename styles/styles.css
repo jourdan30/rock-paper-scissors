@@ -1,0 +1,102 @@
+html {
+  height: 100vh;
+  width: 100vw;
+  background-color: #d9f8f4;
+}
+
+body {
+  width: 90vw;
+  max-width: 800px;
+  margin:auto;
+  font-family:'Roboto',sans-serif;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.button-container{
+  margin: auto;
+  height: 25%;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid rgb(50, 51, 54);
+  padding-bottom: 20px;
+}
+
+.choice-container {
+  margin: auto;
+  height: 30%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  vertical-align: middle;
+  padding-top:20px;
+}
+
+.selection img {
+  text-align: center;
+  width: 65%;
+  height: 80%;
+  border: 3px solid black;
+  transition: all 0.2s;
+  background-color: rgb(233, 236, 243);
+}  
+
+.choice img  {
+  width: 50%;
+  height: 65%;
+  text-align: center;
+  background-color: #d9f8f4;
+}
+
+.selection img:hover {
+  transform: scale(1.08);
+  background-color: rgb(98, 134, 241);
+  border-style: solid;
+}
+
+.selection, .choice {
+  width: 35%;
+  height: 100%;
+  text-align: center;
+}
+
+
+.message-container, .result-container {
+  margin: auto;
+  width: 90%;
+  font-size: 15px;
+  text-align: center;
+}
+
+.result-container {
+  font-size: 16px;
+}
+
+button {
+  padding:0.35em 1.2em;
+  border:0.1em solid black;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-weight:300;
+  color:#292626;
+  text-align:center;
+  transition: all 0.2s;
+  background-color:rgb(233, 236, 243);
+}
+
+button:hover{
+  color:#000000;
+  background-color: rgb(141, 165, 245);
+}
