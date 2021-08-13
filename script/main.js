@@ -51,7 +51,8 @@ function playRound () {                                         // play game fir
         changeImage() 
 
         if (computerSelection == playerSelection) {
-
+            selectPlayerScore.textContent = (`Player score: ${ playerScore }`);
+            selectComputerScore.textContent = (`Computer score: ${ computerScore }`)     
             messageText.textContent =`It was a tie - you both chose ${ playerSelection }. How underwhelming.`;
             message.appendChild(messageText);
         }
